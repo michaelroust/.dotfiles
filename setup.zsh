@@ -1,16 +1,15 @@
-
-# cd Into Synchronized code folder
-cd "~/Library/Mobile Documents/com~apple~CloudDocs/code"
+cd ~
 
 # Symlink to code folder
-ln -s . ~/code
-
-cd ".dotfiles"
+ln -s "/Users/mroust/Library/Mobile Documents/com~apple~CloudDocs/code" code
 
 # Symlink each .dotfiles
-ln -s .bash_profile ~/.bash_profile
-ln -s .zshrc ~/.zshrc
-ln -s .p10k.zsh ~/.p10k.zsh
+ln -s code/.dotfiles/.bash_profile .bash_profile
+ln -s code/.dotfiles/.zshrc .zshrc
+ln -s code/.dotfiles/.p10k.zsh .p10k.zsh
 
-ln -s .git_config ~/.git_config
-ln -s .gitignore_global ~/.gitignore_global
+ln -s ~/code/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/code/.dotfiles/.gitignore_global ~/.gitignore_global
+
+
+# ln -s $"DOTFILES"
