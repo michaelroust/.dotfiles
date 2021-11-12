@@ -1,6 +1,6 @@
 [user]
     email = michael.roust@gmail.com
-    name = metaTinker
+    name = Michael Roust
 [core]
     excludesfile = /Users/mroust/.gitignore_global
     autocrlf = false
