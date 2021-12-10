@@ -10,8 +10,9 @@ fi
 #=============================================================================
 # Personal Configs
 
-alias jlab='jupyter lab'
-alias jnote='jupyter notebook'
+alias ip="ipython"
+alias jn='jupyter notebook'
+alias jl='jupyter lab'
 
 alias custom_java_versions='/usr/libexec/java_home -V'
 
