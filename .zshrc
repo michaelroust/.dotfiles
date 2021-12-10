@@ -10,7 +10,7 @@ fi
 #=============================================================================
 # Personal Configs
 
-alias ip="ipython"
+alias ip='ipython'
 alias jn='jupyter notebook'
 alias jl='jupyter lab'
 

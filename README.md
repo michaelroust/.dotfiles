@@ -1,6 +1,7 @@
 # .dotfiles
 
-``` bash
+#### My personal installation
+``` shell
 cd ~
 
 # Symlink to code folder
@@ -18,4 +19,14 @@ ln -s ~/code/.dotfiles/.gitignore_global ~/.gitignore_global
 # ln -s $"DOTFILES"
 ```
 
+#### Homebrew stuff
+``` shell
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Then pass in the Brewfile location...
+brew bundle --file ~/code/.dotfiles/Brewfile
+
+# Dump homebrew files
+brew bundle dump --describe --file ~/code/.dotfiles/Brewfile -f
+```

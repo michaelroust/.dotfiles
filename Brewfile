@@ -29,8 +29,8 @@ brew "gradle"
 brew "node", link: false
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
-# Build tool for Scala projects
-brew "sbt"
+# Cross-platform application and UI framework
+brew "qt"
 # User interface to the TELNET protocol
 brew "telnet"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
