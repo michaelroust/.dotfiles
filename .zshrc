@@ -14,6 +14,8 @@ alias ip='ipython'
 alias jn='jupyter notebook'
 alias jl='jupyter lab'
 
+alias custom_open_dotfiles='cd ~/code/.dotfiles && code .'
+
 alias custom_java_versions='/usr/libexec/java_home -V'
 
 #=============================================================================
