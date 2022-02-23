@@ -56,7 +56,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 #=============================================================================
 # Java
 
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_292`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_`
 export PATH="$JAVA_HOME/bin:$PATH"
 
 #=============================================================================
