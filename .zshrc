@@ -54,11 +54,17 @@ antigen apply
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 #=============================================================================
+# Java
+
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_292`
+export PATH="$JAVA_HOME/bin:$PATH"
+
+#=============================================================================
 # SDKMAN
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/mroust/.sdkman"
-[[ -s "/Users/mroust/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mroust/.sdkman/bin/sdkman-init.sh"
+# export SDKMAN_DIR="/Users/mroust/.sdkman"
+# [[ -s "/Users/mroust/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mroust/.sdkman/bin/sdkman-init.sh"
 
 #=============================================================================
 # Anaconda
