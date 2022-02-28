@@ -1,6 +1,6 @@
 # .dotfiles
 
-#### My personal installation
+#### Symlink setup
 ``` shell
 cd ~
 
@@ -19,7 +19,7 @@ ln -s ~/code/.dotfiles/.gitignore_global ~/.gitignore_global
 # ln -s $"DOTFILES"
 ```
 
-#### Homebrew stuff
+#### Homebrew commands
 ``` shell
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
