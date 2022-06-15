@@ -18,6 +18,12 @@ alias custom_open_dotfiles='cd ~/code/.dotfiles && code .'
 
 alias custom_java_versions='/usr/libexec/java_home -V'
 
+# Random pass generator. Input length after alias. Example custom_gen_password 16
+# alias custom_gen_password='openssl rand -base64'
+
+alias custom_gen_password='f() { openssl rand -base64 $1 | tee >(pbcopy) }; f'
+
+
 #=============================================================================
 # Antigen
 
